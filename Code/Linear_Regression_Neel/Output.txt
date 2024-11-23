@@ -1,0 +1,300 @@
+$Brazil
+$Brazil$model
+
+Call:
+lm(formula = formula, data = train_data)
+
+Coefficients:
+     (Intercept)  Solar_Energy_Pct    Solar_Elec_Pct     Solar_Gen_TWh  
+           954.6        -3443314.7         -500761.7          389099.7  
+
+
+$Brazil$predictions
+        29         30         31         32         33         34         35 
+  33706.02  154098.91  353285.90  461857.80 1012317.65 2250349.13 4452759.32 
+
+$Brazil$actual
+[1] 2060 1920 1870 1480 1670 1950 2170
+
+$Brazil$mse
+[1] 3.74915e+12
+
+$Brazil$rmse
+[1] 1936272
+
+$Brazil$r_squared
+[1] 0.4128726
+
+$Brazil$plot
+
+
+$China
+$China$model
+
+Call:
+lm(formula = formula, data = train_data)
+
+Coefficients:
+            (Intercept)           Solar_Elec_Pct         Solar_Energy_Pct            Hydro_Gen_TWh  
+              3.927e+03                1.821e+05                1.326e+05                1.714e+04  
+         Hydro_Elec_TWh           Solar_Elec_TWh             Wind_Gen_TWh            Solar_Gen_TWh  
+             -1.713e+04               -1.981e+04                2.199e+04                1.569e+04  
+          Wind_Elec_TWh          Wind_Energy_Pct         Renew_Energy_Pct         Hydro_Energy_Pct  
+             -2.191e+04               -2.566e+03               -9.780e+03                9.092e+03  
+          Wind_Elec_Pct           Renew_Elec_Pct           Hydro_Elec_Pct     Other_Renew_Elec_TWh  
+             -3.316e+03                2.479e+03               -2.425e+03                1.739e+02  
+        Elec_Capita_kWh             Elec_Gen_TWh   Annual_Change_Cons_Pct  Prim_Energy_Cons_Capita  
+             -1.040e+01                8.988e+00               -3.654e-01               -6.811e-01  
+          Change_in_GDP     Prim_Energy_Cons_TWh      Other_Renew_Gen_TWh  
+              1.451e+00                2.514e-01                       NA  
+
+
+$China$predictions
+           32            33            34            35            36            37            38 
+-7.677198e+01 -3.627586e+04 -1.054300e+05 -1.688510e+05 -2.259110e+05 -3.665871e+05 -6.196383e+05 
+           39 
+-1.159728e+06 
+
+$China$actual
+[1] 11200 12300 13900 14300 14700 17800 17900 17800
+
+$China$mse
+[1] 256118164925
+
+$China$rmse
+[1] 506081.2
+
+$China$r_squared
+[1] 0.9999322
+
+$China$plot
+
+
+$France
+$France$model
+
+Call:
+lm(formula = formula, data = train_data)
+
+Coefficients:
+     (Intercept)  Solar_Energy_Pct    Solar_Elec_Pct   Wind_Energy_Pct  
+            1561             -7224              1776              1828  
+
+
+$France$predictions
+      32       33       34       35       36       37       38       39 
+2378.931 2608.087 2764.438 3369.799 3979.903 2501.509 1170.680 2573.569 
+
+$France$actual
+[1] 2470 2600 2790 2730 2650 2960 2780 3030
+
+$France$mse
+[1] 649431.3
+
+$France$rmse
+[1] 805.873
+
+$France$r_squared
+[1] 0.8076727
+
+$France$plot
+
+
+$Germany
+$Germany$model
+
+Call:
+lm(formula = formula, data = train_data)
+
+Coefficients:
+     (Intercept)    Solar_Elec_Pct  Solar_Energy_Pct    Solar_Elec_TWh  
+            2411              6922             -6566              -590  
+
+
+$Germany$predictions
+       32        33        34        35        36        37        38        39 
+ 3595.559  3751.782  4456.918  6713.342  8875.936  8341.549 10443.576 17562.636 
+
+$Germany$actual
+[1] 3470 3690 3970 3890 3890 4280 4080 4460
+
+$Germany$mse
+[1] 32719728
+
+$Germany$rmse
+[1] 5720.116
+
+$Germany$r_squared
+[1] 0.6044441
+
+$Germany$plot
+
+
+$India
+$India$model
+
+Call:
+lm(formula = formula, data = train_data)
+
+Coefficients:
+            (Intercept)         Solar_Energy_Pct            Wind_Elec_TWh             Wind_Gen_TWh  
+               -557.409               -35791.363               -13384.516                13399.388  
+         Solar_Elec_Pct            Solar_Gen_TWh           Solar_Elec_TWh          Wind_Energy_Pct  
+               7731.880                12295.572               -11833.699                10633.566  
+         Hydro_Elec_TWh            Hydro_Gen_TWh            Wind_Elec_Pct         Hydro_Energy_Pct  
+              -9633.217                 9625.785                -5152.553                 1536.844  
+         Hydro_Elec_Pct         Renew_Energy_Pct           Renew_Elec_Pct     Other_Renew_Elec_TWh  
+              -1428.913                -1276.642                 1344.096                  -14.142  
+        Elec_Capita_kWh             Elec_Gen_TWh   Annual_Change_Cons_Pct  Prim_Energy_Cons_Capita  
+                -16.921                   11.868                    3.832                    2.700  
+   Prim_Energy_Cons_TWh            Change_in_GDP      Other_Renew_Gen_TWh  
+                 -1.694                    1.812                       NA  
+
+
+$India$predictions
+       32        33        34        35        36        37        38        39 
+2088.7060 2080.2149 2328.1308 2576.8501  189.3971 3093.3527 4089.0848 8702.6368 
+
+$India$actual
+[1] 2290 2650 2700 2840 2670 3170 3350 3550
+
+$India$mse
+[1] 4228486
+
+$India$rmse
+[1] 2056.328
+
+$India$r_squared
+[1] 0.9998219
+
+$India$plot
+
+
+$Italy
+$Italy$model
+
+Call:
+lm(formula = formula, data = train_data)
+
+Coefficients:
+     (Intercept)   Wind_Energy_Pct  Solar_Energy_Pct     Wind_Elec_Pct  
+          1106.6            1034.5            -673.3             168.3  
+
+
+$Italy$predictions
+      32       33       34       35       36       37       38       39 
+2649.508 2409.081 2588.708 2996.212 2663.474 3048.664 2670.119 3134.862 
+
+$Italy$actual
+[1] 1880 1960 2090 2010 1900 2150 2070 2250
+
+$Italy$mse
+[1] 568594.1
+
+$Italy$rmse
+[1] 754.0518
+
+$Italy$r_squared
+[1] 0.7638237
+
+$Italy$plot
+
+
+$Japan
+$Japan$model
+
+Call:
+lm(formula = formula, data = train_data)
+
+Coefficients:
+     (Intercept)   Wind_Energy_Pct     Wind_Elec_Pct  Solar_Energy_Pct  
+            3873             -6641              9513             -1497  
+
+
+$Japan$predictions
+      32       33       34       35       36       37       38       39 
+3710.635 3118.288 2687.454 2512.193 2111.515 1736.260 1033.392 1070.088 
+
+$Japan$actual
+[1] 5000 4930 5040 5120 5060 5030 4260 4210
+
+$Japan$mse
+[1] 7136528
+
+$Japan$rmse
+[1] 2671.428
+
+$Japan$r_squared
+[1] 0.4146633
+
+$Japan$plot
+
+
+$`United Kingdom`
+$`United Kingdom`$model
+
+Call:
+lm(formula = formula, data = train_data)
+
+Coefficients:
+     (Intercept)  Solar_Energy_Pct    Solar_Elec_Pct    Solar_Elec_TWh  
+            1648            101681            -48240              2386  
+
+
+$`United Kingdom`$predictions
+        32         33         34         35         36         37         38         39 
+ 4725.3160  3433.6925  -111.4300 -2315.4520  2403.6343  2253.7128  3307.3171   960.6718 
+
+$`United Kingdom`$actual
+[1] 2690 2680 2870 2850 2700 3140 3090 3340
+
+$`United Kingdom`$mse
+[1] 5857894
+
+$`United Kingdom`$rmse
+[1] 2420.309
+
+$`United Kingdom`$r_squared
+[1] 0.302058
+
+$`United Kingdom`$plot
+
+
+$`United States`
+$`United States`$model
+
+Call:
+lm(formula = formula, data = train_data)
+
+Coefficients:
+            (Intercept)         Solar_Energy_Pct           Solar_Elec_Pct          Wind_Energy_Pct  
+             -2.114e+04                3.288e+05                5.337e+03               -3.149e+04  
+          Wind_Elec_Pct         Hydro_Energy_Pct            Wind_Elec_TWh             Wind_Gen_TWh  
+              4.848e+03               -1.685e+04               -1.150e+04                1.136e+04  
+         Renew_Elec_Pct           Hydro_Elec_Pct            Solar_Gen_TWh           Solar_Elec_TWh  
+              1.014e+04               -4.680e+03               -3.589e+03               -2.447e+02  
+       Renew_Energy_Pct     Other_Renew_Elec_TWh            Hydro_Gen_TWh           Hydro_Elec_TWh  
+              8.069e+02               -2.566e+02                3.124e+01                3.613e+00  
+ Annual_Change_Cons_Pct      Other_Renew_Gen_TWh            Change_in_GDP             Elec_Gen_TWh  
+             -8.873e+01               -5.497e+01                1.479e+01                2.349e+01  
+        Elec_Capita_kWh     Prim_Energy_Cons_TWh  Prim_Energy_Cons_Capita  
+             -1.586e+00               -1.842e+00                1.574e-01  
+
+
+$`United States`$predictions
+        32         33         34         35         36         37         38         39 
+ 18570.704  17610.084   3806.136   4545.175  29573.504   1920.143 -21616.015 -21330.797 
+
+$`United States`$actual
+[1] 18800 19600 20700 21500 21300 23600 25700 27400
+
+$`United States`$mse
+[1] 716105494
+
+$`United States`$rmse
+[1] 26760.15
+
+$`United States`$r_squared
+[1] 0.99969
+
+$`United States`$plot
