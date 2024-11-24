@@ -10,7 +10,9 @@ library(rpart.plot)
 
 # Load the dataset
 data <- read.csv("master_data_with_gdp_india.csv")
+data <- data[, -c(1, 2)]
 
+head(data)
 # Split the data into training and testing sets
 set.seed(123)  # For reproducibility
 train_indices <- sample(seq_len(nrow(data)), size = 0.8 * nrow(data))
