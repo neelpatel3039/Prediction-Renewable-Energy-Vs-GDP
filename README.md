@@ -9,7 +9,7 @@
 - [x] 2️⃣ _(9th November - 12th November)_ | Data Preparation (Cleaning, Transforming etc)
 - [x] 3️⃣ _(13th November - 17th November)_ | Model Planning, Testing and Building 
 - [x] 4️⃣ _(18th November - 21st November)_ | Data Visualisation and Storytelling
-- [x] 5️⃣ _(22nd November - 24th November)_ | Preparing and Submitting Final Report
+- [ ] 5️⃣ _(PENDING)_ | Preparing and Submitting Final Report
 
 ### 📂 Datasets:
 * Renewable Energy | Citation:
