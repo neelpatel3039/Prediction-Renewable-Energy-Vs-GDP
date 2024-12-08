@@ -4,12 +4,12 @@
 * Language: R
 * Regression/Classification: Regression (atleast, for now)
 
-### 🎯 Project Plan:
-- [ ] 1️⃣ _(29th October - 6th November)_ | Understanding the Data / Data Discovery
-- [ ] 2️⃣ _(9th November - 12th November)_ | Data Preparation (Cleaning, Transforming etc)
-- [ ] 3️⃣ _(13th November - 17th November)_ | Model Planning, Testing and Building 
-- [ ] 4️⃣ _(18th November - 21st November)_ | Data Visualisation and Storytelling
-- [ ] 5️⃣ _(22nd November - 24th November)_ | Preparing and Submitting Final Report
+### 🎯 Project Plan (actual dates were different):
+- [x] 1️⃣ _(29th October - 6th November)_ | Understanding the Data / Data Discovery
+- [x] 2️⃣ _(9th November - 12th November)_ | Data Preparation (Cleaning, Transforming etc)
+- [x] 3️⃣ _(13th November - 17th November)_ | Model Planning, Testing and Building 
+- [x] 4️⃣ _(18th November - 21st November)_ | Data Visualisation and Storytelling
+- [ ] 5️⃣ _(PENDING)_ | Preparing and Submitting Final Report
 
 ### 📂 Datasets:
 * Renewable Energy | Citation:
