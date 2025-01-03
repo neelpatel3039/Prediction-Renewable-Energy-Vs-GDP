@@ -12,6 +12,9 @@
 - [x] 4️⃣ Data Visualisation and Storytelling
 - [x] 5️⃣ Preparing and Submitting Final Report
 
+### 🪜 Code Design Diagram:
+![CODEDESIGN!](Final%20Submission/Docs/code-structure-diagram.png)
+
 ### 📂 Datasets:
 * Renewable Energy | Citation:
   > Hannah Ritchie, Max Roser and Pablo Rosado (2020) - “Renewable Energy” Published online at OurWorldinData.org. Retrieved from: 'https://ourworldindata.org/renewable-energy' [Online Resource]
