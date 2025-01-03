@@ -2,14 +2,15 @@
 
 ### ℹ️ Quick Facts:
 * Language: R
-* Regression/Classification: Regression (atleast, for now)
+* Regression/Classification: Regression
+* Models Used: Random Forest and ARIMA
 
-### 🎯 Project Plan (actual dates were different):
-- [x] 1️⃣ _(29th October - 6th November)_ | Understanding the Data / Data Discovery
-- [x] 2️⃣ _(9th November - 12th November)_ | Data Preparation (Cleaning, Transforming etc)
-- [x] 3️⃣ _(13th November - 17th November)_ | Model Planning, Testing and Building 
-- [x] 4️⃣ _(18th November - 21st November)_ | Data Visualisation and Storytelling
-- [ ] 5️⃣ _(PENDING)_ | Preparing and Submitting Final Report
+### 🎯 Project Process:
+- [x] 1️⃣ Understanding the Data / Data Discovery
+- [x] 2️⃣ Data Preparation (Cleaning, Transforming etc)
+- [x] 3️⃣ Model Planning, Testing and Building 
+- [x] 4️⃣ Data Visualisation and Storytelling
+- [x] 5️⃣ Preparing and Submitting Final Report
 
 ### 📂 Datasets:
 * Renewable Energy | Citation:
